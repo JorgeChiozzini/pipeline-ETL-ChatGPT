@@ -1,7 +1,3 @@
-# Aqui está um exemplo de projeto que combina um pipeline ETL simples com a API do ChatGPT para criar um sistema de respostas automáticas com base em perguntas frequentes. 
-# Neste projeto, você vai extrair perguntas e respostas de um arquivo CSV, criar um modelo ChatGPT para gerar respostas e, em seguida, disponibilizar um serviço de chatbot 
-# para os usuários.Objetivo do projeto: Criar um chatbot simples que responda automaticamente a perguntas baseado em um conjunto de perguntas frequentes.
-
 # Extração: Extrair as perguntas e respostas de um arquivo CSV.
 
 import pandas as pd
@@ -45,6 +41,3 @@ while True:
         print("Chatbot:", response)
 
 # Certifique-se de ter um arquivo CSV chamado "faq_data.csv" contendo perguntas e respostas. Substitua "SUA_CHAVE_DE_API_AQUI" pela sua chave de API do OpenAI.
-# Este projeto combina um pipeline ETL simples com a criação de um chatbot usando a API do OpenAI. Ele demonstra como integrar diferentes tecnologias para criar uma
-# solução mais completa. Lembre-se de que a qualidade das respostas geradas pelo chatbot dependerá da qualidade dos dados de treinamento e da configuração adequada do modelo 
-# de linguagem.
